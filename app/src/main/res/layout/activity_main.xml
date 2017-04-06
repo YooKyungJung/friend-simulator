@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="kr.hs.emirim.ganggangi.friendsimulator.haeunhong.MainActivity">
@@ -9,55 +11,40 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textSize="40sp"
-        android:text="홍하은 시뮬레이터"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09"
-        app:layout_constraintHorizontal_bias="0.506" />
+        android:text="홍하은 시뮬레이터"/>
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="369dp"
-        android:layout_height="43dp"
-        android:text="말걸기"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="219dp" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="옹아은으로 개명"
+        android:layout_margin="3dp"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="366dp"
-        android:layout_height="46dp"
-        android:text="추임새"
-        tools:layout_editor_absoluteY="160dp"
-        android:layout_marginLeft="9dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이상한 짓 하는 홍하은"
+        android:layout_margin="3dp" />
     <Button
         android:id="@+id/button3"
-        android:layout_width="366dp"
-        android:layout_height="46dp"
-        android:text="깨우기"
-        tools:layout_editor_absoluteY="274dp"
-        android:layout_marginLeft="9dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="방송부 오락부장 홍하은"
+        android:layout_margin="3dp" />
     <Button
         android:id="@+id/button4"
-        android:layout_width="366dp"
-        android:layout_height="46dp"
-        android:text="평소 반응"
-        tools:layout_editor_absoluteY="336dp"
-        android:layout_marginLeft="9dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아나운서 홍하은" />
     <Button
         android:id="@+id/button5"
-        android:layout_width="366dp"
-        android:layout_height="46dp"
-        android:text="웃길 때"
-        tools:layout_editor_absoluteY="397dp"
-        android:layout_marginLeft="9dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기숙사생 홍하은"
+        android:layout_margin="3dp" />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
