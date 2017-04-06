@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="옹아은으로 개명"
+        android:onClick="onClick"
         android:layout_margin="3dp"/>
 
     <Button
